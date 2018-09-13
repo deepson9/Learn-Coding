@@ -11,7 +11,7 @@ table, th, td {
 }
 
 h1{
-	background-color:;
+	background-color:blue;
 	color:red;
 }
 
@@ -30,18 +30,20 @@ ul{
 	background-color: lightgreen;
 }
 
-
-}
-/*.gallery{*/
-	/*margin: 50px 50px;*/
+.gallery{
+	margin: 10px 50px;
 }
 
 .gallery img{
 	width: 230px;
 	padding: 5px;
+	/*filter: grayscale(100%);*/
 	transition: 1s;
+
 }
+
 .gallery img:hover{
+	filter: grayscale(0);
 	transform: scale(1.1);
 
 
