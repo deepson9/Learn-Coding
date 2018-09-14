@@ -1,17 +1,19 @@
 
 .main{
-	max-width: 1200px;
 	margin: auto;
+	max-width: 1200px;
+	
+
 }
 
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
-    text-align: center
+    text-align: center;
 }
 
 h1{
-	background-color:blue;
+	background-color:aliceblue;
 	color:red;
 }
 
@@ -46,5 +48,46 @@ ul{
 	filter: grayscale(0);
 	transform: scale(1.1);
 
+}
 
+.gal{
+	background-color: aliceblue;
+	color:midnightblue;
+	text-align: center;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
+.column1 {
+    float: left;
+    width: 49.93%;
+
+}
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 650px) {
+    .column1 {
+        width: 100%;
+    }
 }
